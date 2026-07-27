@@ -1,0 +1,56 @@
+2026-07-24 16:34:51 [INFO] Starting Lab 02 Entra user and group automation.
+2026-07-24 16:34:51 [INFO] Connecting to Microsoft Graph.
+2026-07-24 16:34:53 [SUCCESS] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-07-24 16:34:53 [INFO] Imported 5 user actions.
+2026-07-24 16:34:53 [INFO] Imported 6 group actions.
+2026-07-24 16:34:53 [INFO] Lab 02 execution finished.
+2026-07-24 16:47:18 [INFO] Starting Lab 02 Entra user and group automation.
+2026-07-24 16:47:19 [INFO] Connecting to Microsoft Graph.
+2026-07-24 16:47:19 [SUCCESS] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-07-24 16:47:19 [INFO] Beginning user-action processing.
+2026-07-24 16:47:19 [INFO] Processing user action 'Create' for Ethan Brooks.
+2026-07-24 16:47:22 [SUCCESS] Created user: ethanbrooks@CabanTechnologies.onmicrosoft.com
+2026-07-24 16:47:22 [INFO] Processing user action 'Create' for Emily Carter.
+2026-07-24 16:47:22 [SUCCESS] Created user: emilycarter@CabanTechnologies.onmicrosoft.com
+2026-07-24 16:47:22 [INFO] Processing user action 'Update' for Rachel Adams.
+2026-07-24 16:47:23 [SUCCESS] Updated user attributes for racheladams@CabanTechnologies.onmicrosoft.com
+2026-07-24 16:47:23 [INFO] Processing user action 'Disable' for Kevin Brooks.
+2026-07-24 16:47:24 [SUCCESS] Disable completed for kevinbrooks@CabanTechnologies.onmicrosoft.com
+2026-07-24 16:47:24 [INFO] Processing user action 'Enable' for Sophia Martinez.
+2026-07-24 16:47:24 [SUCCESS] Enable completed for sophiamartinez@CabanTechnologies.onmicrosoft.com
+2026-07-24 16:47:24 [INFO] Finished user-action processing.
+2026-07-24 16:47:24 [INFO] Imported 5 user actions.
+2026-07-24 16:47:24 [INFO] Imported 6 group actions.
+2026-07-24 16:47:24 [INFO] Lab 02 execution finished.
+2026-07-27 11:26:02 [INFO] Starting Lab 02 Entra user and group automation.
+2026-07-27 11:26:02 [INFO] Connecting to Microsoft Graph.
+2026-07-27 11:26:04 [SUCCESS] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-07-27 11:26:04 [INFO] Imported 5 user actions.
+2026-07-27 11:26:04 [INFO] Imported 6 group actions.
+2026-07-27 11:26:04 [INFO] Beginning user-action processing.
+2026-07-27 11:26:04 [INFO] Processing user action 'Create' for Ethan Brooks.
+2026-07-27 11:26:07 [WARNING] User already exists: ethanbrooks@CabanTechnologies.onmicrosoft.com
+2026-07-27 11:26:07 [INFO] Processing user action 'Create' for Emily Carter.
+2026-07-27 11:26:07 [WARNING] User already exists: emilycarter@CabanTechnologies.onmicrosoft.com
+2026-07-27 11:26:07 [INFO] Processing user action 'Update' for Rachel Adams.
+2026-07-27 11:26:08 [SUCCESS] Updated user attributes for racheladams@CabanTechnologies.onmicrosoft.com
+2026-07-27 11:26:08 [INFO] Processing user action 'Disable' for Kevin Brooks.
+2026-07-27 11:26:08 [WARNING] User is already disabled: kevinbrooks@CabanTechnologies.onmicrosoft.com
+2026-07-27 11:26:08 [INFO] Processing user action 'Enable' for Sophia Martinez.
+2026-07-27 11:26:08 [WARNING] User is already enabled: sophiamartinez@CabanTechnologies.onmicrosoft.com
+2026-07-27 11:26:08 [INFO] Finished user-action processing.
+2026-07-27 11:26:08 [INFO] Beginning group-action processing.
+2026-07-27 11:26:08 [INFO] Processing group action 'Create' for Cloud-Operations.
+2026-07-27 11:26:12 [SUCCESS] Created security group: Cloud-Operations
+2026-07-27 11:26:12 [INFO] Processing group action 'Create' for Finance-Reporting.
+2026-07-27 11:26:12 [SUCCESS] Created security group: Finance-Reporting
+2026-07-27 11:26:12 [INFO] Processing group action 'AddMember' for Cloud-Operations.
+2026-07-27 11:26:13 [SUCCESS] Added ethanbrooks@CabanTechnologies.onmicrosoft.com to Cloud-Operations
+2026-07-27 11:26:13 [INFO] Processing group action 'AddMember' for Cloud-Operations.
+2026-07-27 11:26:14 [SUCCESS] Added racheladams@CabanTechnologies.onmicrosoft.com to Cloud-Operations
+2026-07-27 11:26:14 [INFO] Processing group action 'AddMember' for Finance-Reporting.
+2026-07-27 11:26:15 [SUCCESS] Added emilycarter@CabanTechnologies.onmicrosoft.com to Finance-Reporting
+2026-07-27 11:26:15 [INFO] Processing group action 'RemoveMember' for IT-Support.
+2026-07-27 11:26:16 [WARNING] kevinbrooks@CabanTechnologies.onmicrosoft.com is not currently a member of IT-Support
+2026-07-27 11:26:16 [INFO] Finished group-action processing.
+2026-07-27 11:26:16 [INFO] Lab 02 execution finished.

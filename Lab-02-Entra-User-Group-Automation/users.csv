@@ -1,0 +1,6 @@
+Action,DisplayName,UserPrincipalName,MailNickname,Department,JobTitle,UsageLocation
+Create,Ethan Brooks,ethanbrooks@CabanTechnologies.onmicrosoft.com,ethanbrooks,Information Technology,System Administrator,US
+Create,Emily Carter,emilycarter@CabanTechnologies.onmicrosoft.com,emilycarter,Finance,Financial Analyst,US
+Update,Rachel Adams,racheladams@CabanTechnologies.onmicrosoft.com,racheladams,Human Resources,Senior HR Specialist,US
+Disable,Kevin Brooks,kevinbrooks@CabanTechnologies.onmicrosoft.com,kevinbrooks,Information Technology,Support Technician,US
+Enable,Sophia Martinez,sophiamartinez@CabanTechnologies.onmicrosoft.com,sophiamartinez,Marketing,Marketing Specialist,US

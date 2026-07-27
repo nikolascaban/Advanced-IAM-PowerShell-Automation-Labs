@@ -1,0 +1,7 @@
+Action,GroupName,Description,MemberUserPrincipalName
+Create,Cloud-Operations,Cloud operations and administration,
+Create,Finance-Reporting,Access to finance reporting resources,
+AddMember,Cloud-Operations,,ethanbrooks@CabanTechnologies.onmicrosoft.com
+AddMember,Cloud-Operations,,racheladams@CabanTechnologies.onmicrosoft.com
+AddMember,Finance-Reporting,,emilycarter@CabanTechnologies.onmicrosoft.com
+RemoveMember,IT-Support,,kevinbrooks@CabanTechnologies.onmicrosoft.com
