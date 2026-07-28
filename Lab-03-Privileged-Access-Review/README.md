@@ -87,42 +87,6 @@ The script exports two timestamped CSV reports during each execution.
 | `PrivilegedRoleAssignments` | Complete list of discovered privileged role assignments |
 | `PrivilegedAccessFindings` | Security findings identified during the privileged access review |
 
-## How to Run
-
-### Prerequisites
-
-- PowerShell 7
-- Microsoft Graph PowerShell SDK
-- Access to a Microsoft Entra tenant
-- Permission to read directory roles and users
-
-The script requests the following Microsoft Graph scopes:
-
-```text
-RoleManagement.Read.Directory
-User.Read.All
-```
-
-### Run the Script
-
-Open PowerShell in the lab directory and execute:
-
-```powershell
-.\privileged-access-review.ps1
-```
-
-Complete Microsoft Graph authentication when prompted.
-
-The script will:
-
-1. Connect to Microsoft Graph.
-2. Retrieve active Microsoft Entra roles.
-3. Retrieve privileged role assignments.
-4. Run the privileged access checks.
-5. Display the findings and executive summary.
-6. Export timestamped CSV reports.
-7. Write execution activity to a timestamped log.
-8. Disconnect from Microsoft Graph.
 
 ## Learning Objectives
 
