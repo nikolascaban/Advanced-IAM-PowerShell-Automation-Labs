@@ -101,3 +101,7 @@ This lab demonstrates practical IAM skills including:
 - Operational logging
 - CSV report generation
 - Risk-summary creation
+
+  ## Author
+
+Nikolas Caban
