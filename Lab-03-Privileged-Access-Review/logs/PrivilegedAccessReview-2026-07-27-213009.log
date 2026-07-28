@@ -1,0 +1,8 @@
+[2026-07-27 21:30:09] [INFO] Privileged access review started.
+[2026-07-27 21:30:09] [INFO] Connecting to Microsoft Graph...
+[2026-07-27 21:30:18] [SUCCESS] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+[2026-07-27 21:30:18] [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+[2026-07-27 21:30:19] [INFO] Retrieving Microsoft Entra directory roles...
+[2026-07-27 21:30:19] [SUCCESS] Retrieved 8 active directory roles.
+[2026-07-27 21:30:19] [SUCCESS] Directory role retrieval test completed.
+[2026-07-27 21:30:19] [SUCCESS] Disconnected from Microsoft Graph.

@@ -1,0 +1,6 @@
+[2026-07-27 16:34:35] [INFO] Privileged access review started.
+[2026-07-27 16:34:35] [INFO] Connecting to Microsoft Graph...
+[2026-07-27 16:35:01] [SUCCESS] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+[2026-07-27 16:35:01] [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+[2026-07-27 16:35:01] [SUCCESS] Graph connection module test completed.
+[2026-07-27 16:35:01] [SUCCESS] Disconnected from Microsoft Graph.

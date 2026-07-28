@@ -1,0 +1,4 @@
+[2026-07-27 16:35:45] [INFO] Privileged access review started.
+[2026-07-27 16:35:45] [INFO] Connecting to Microsoft Graph...
+[2026-07-27 16:35:52] [ERROR] Microsoft Graph connection failed: InteractiveBrowserCredential authentication failed: User canceled authentication. 
+[2026-07-27 16:35:52] [ERROR] The script stopped because the Graph connection failed.

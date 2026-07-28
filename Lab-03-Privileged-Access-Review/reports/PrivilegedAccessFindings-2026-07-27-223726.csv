@@ -1,0 +1,3 @@
+"DisplayName","UserPrincipalName","RiskLevel","Finding","RoleCount","Roles"
+"Nikolas Caban","NikolasCaban@CabanTechnologies.onmicrosoft.com","Medium","Multiple Privileged Roles","3","Global Administrator; Identity Governance Administrator; Lifecycle Workflows Administrator"
+"Rachel Adams","racheladams@CabanTechnologies.onmicrosoft.com","Medium","Multiple Privileged Roles","2","Groups Administrator; User Administrator"
