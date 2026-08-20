@@ -220,7 +220,7 @@ Compliance Percentage:       25%
 
 ## Lessons Learned
 
-This lab demonstrated that RBAC drift is the difference between approved access and actual access—not a special property applied to an account.
+This lab demonstrated that RBAC drift is the difference between approved access and actual access, not a special property applied to an account.
 
 The project also reinforced the importance of:
 
