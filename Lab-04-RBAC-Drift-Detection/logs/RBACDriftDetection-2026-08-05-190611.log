@@ -1,0 +1,4 @@
+[2026-08-05 19:06:11] [INFO] RBAC drift detection started.
+[2026-08-05 19:06:11] [INFO] Connecting to Microsoft Graph...
+[2026-08-05 19:08:11] [ERROR] Microsoft Graph connection failed: Authentication timed out after 120 seconds due to inactivity. Please try again.
+[2026-08-05 19:08:11] [ERROR] The test failed: Authentication timed out after 120 seconds due to inactivity. Please try again.

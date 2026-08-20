@@ -1,0 +1,5 @@
+"DisplayName","UserPrincipalName","ExpectedGroups","CurrentGroups","MissingGroups","UnexpectedGroups","ComplianceStatus"
+"Rachel Adams","racheladams@CabanTechnologies.onmicrosoft.com","HR-Users","HR-Users","","","Compliant"
+"Carlos Rivera","carlosrivera@CabanTechnologies.onmicrosoft.com","Finance-Users","Operations-Users;Finance-Users","","Operations-Users","Drift Detected"
+"Ethan Brooks","ethanbrooks@CabanTechnologies.onmicrosoft.com","IT-Admins","","IT-Admins","","Drift Detected"
+"Olivia Morgan","oliviamorgan@CabanTechnologies.onmicrosoft.com","Operations-Users","Finance-Users","Operations-Users","Finance-Users","Drift Detected"

@@ -1,0 +1,13 @@
+[2026-08-19 15:40:13] [INFO] RBAC drift detection started.
+[2026-08-19 15:40:13] [SUCCESS] Already connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 15:40:13] [INFO] Importing the approved RBAC baseline...
+[2026-08-19 15:40:13] [SUCCESS] Imported 4 baseline records.
+[2026-08-19 15:40:13] [INFO] Retrieving current RBAC group memberships...
+[2026-08-19 15:40:14] [INFO] Checking memberships for racheladams@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 15:40:17] [INFO] Checking memberships for carlosrivera@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 15:40:18] [INFO] Checking memberships for ethanbrooks@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 15:40:18] [INFO] Checking memberships for oliviamorgan@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 15:40:19] [SUCCESS] Current RBAC state retrieval completed.
+[2026-08-19 15:40:19] [INFO] Comparing expected and current RBAC access...
+[2026-08-19 15:40:19] [SUCCESS] RBAC drift comparison completed.
+[2026-08-19 15:40:19] [SUCCESS] Baseline import test completed.

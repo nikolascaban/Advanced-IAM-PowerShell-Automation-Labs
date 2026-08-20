@@ -1,0 +1,17 @@
+[2026-08-19 16:34:01] [INFO] RBAC drift detection started.
+[2026-08-19 16:34:01] [SUCCESS] Already connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 16:34:01] [INFO] Importing the approved RBAC baseline...
+[2026-08-19 16:34:01] [SUCCESS] Imported 4 baseline records.
+[2026-08-19 16:34:01] [INFO] Retrieving current RBAC group memberships...
+[2026-08-19 16:34:01] [INFO] Checking memberships for racheladams@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 16:34:02] [INFO] Checking memberships for carlosrivera@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 16:34:02] [INFO] Checking memberships for ethanbrooks@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 16:34:03] [INFO] Checking memberships for oliviamorgan@CabanTechnologies.onmicrosoft.com.
+[2026-08-19 16:34:03] [SUCCESS] Current RBAC state retrieval completed.
+[2026-08-19 16:34:03] [INFO] Comparing expected and current RBAC access...
+[2026-08-19 16:34:03] [SUCCESS] RBAC drift comparison completed.
+[2026-08-19 16:34:03] [INFO] Comparing expected and current RBAC access...
+[2026-08-19 16:34:03] [SUCCESS] RBAC drift comparison completed.
+[2026-08-19 16:34:03] [INFO] Exporting the RBAC drift report...
+[2026-08-19 16:34:03] [SUCCESS] RBAC drift report exported to C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-04-RBAC-Drift-Detection\reports\RBACDriftReport-2026-08-19-163403.csv
+[2026-08-19 16:34:03] [SUCCESS] RBAC drift analysis completed.

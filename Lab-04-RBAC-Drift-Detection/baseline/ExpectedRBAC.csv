@@ -1,0 +1,5 @@
+DisplayName,UserPrincipalName,Department,ExpectedGroups
+Rachel Adams,racheladams@CabanTechnologies.onmicrosoft.com,Human Resources,HR-Users
+Carlos Rivera,carlosrivera@CabanTechnologies.onmicrosoft.com,Finance,Finance-Users
+Ethan Brooks,ethanbrooks@CabanTechnologies.onmicrosoft.com,Information Technology,IT-Admins
+Olivia Morgan,oliviamorgan@CabanTechnologies.onmicrosoft.com,Operations,Operations-Users
