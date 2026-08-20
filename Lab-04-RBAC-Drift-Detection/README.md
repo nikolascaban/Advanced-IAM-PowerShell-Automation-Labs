@@ -230,3 +230,6 @@ The project also reinforced the importance of:
 - Producing audit-friendly evidence
 - Separating PowerShell functionality into focused modules
 
+## Author
+
+Nikolas Caban
