@@ -184,4 +184,7 @@ During development, several real-world IAM scenarios were encountered and resolv
 - User lifecycle automation against a live Microsoft Entra tenant
 - Logging and audit reporting for identity operations
 
----
+## Author
+
+Nikolas Caban
+
