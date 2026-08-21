@@ -1,0 +1,2 @@
+"UserPrincipalName","DisplayName","FindingType","RoleCount","Roles","Severity","Details"
+"racheladams@CabanTechnologies.onmicrosoft.com","Rachel Adams","Multiple Privileged Roles","2","Groups Administrator; User Administrator","Medium","Identity holds multiple active Entra role assignments."

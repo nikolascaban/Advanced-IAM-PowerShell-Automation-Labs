@@ -1,0 +1,48 @@
+2026-08-20 20:20:19 [INFO] Identity security posture assessment started.
+2026-08-20 20:20:19 [INFO] Loaded 10 scoped identities.
+2026-08-20 20:20:20 [INFO] Using existing Graph connection for NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 20:20:20 [INFO] Starting privileged-access audit.
+2026-08-20 20:20:20 [INFO] racheladams@CabanTechnologies.onmicrosoft.com has 2 active role assignment(s).
+2026-08-20 20:20:20 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:21 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com has 1 active role assignment(s).
+2026-08-20 20:20:21 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:21 [INFO] amandalee@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:21 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:22 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:22 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com has 1 active role assignment(s).
+2026-08-20 20:20:22 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:22 [INFO] andrucaban_yahoo.com#EXT#@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 20:20:22 [INFO] Privileged-access audit found 1 finding(s).
+2026-08-20 20:20:22 [INFO] Starting RBAC audit.
+2026-08-20 20:20:22 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com: 0 missing and 1 unexpected governed group(s).
+2026-08-20 20:20:23 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com: 1 missing and 0 unexpected governed group(s).
+2026-08-20 20:20:23 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com: 1 missing and 1 unexpected governed group(s).
+2026-08-20 20:20:23 [INFO] RBAC audit found 4 finding(s).
+2026-08-20 20:20:23 [INFO] Starting authentication audit.
+2026-08-20 20:20:23 [INFO] racheladams@CabanTechnologies.onmicrosoft.com has 0 recognized strong authentication method(s).
+2026-08-20 20:20:24 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com has 0 recognized strong authentication method(s).
+2026-08-20 20:20:24 [INFO] Authentication audit found 2 finding(s).
+2026-08-20 20:20:24 [INFO] Starting account-hygiene audit.
+2026-08-20 20:20:24 [INFO] racheladams@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 20:20:25 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=2.
+2026-08-20 20:20:25 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 20:20:26 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 20:20:26 [INFO] amandalee@CabanTechnologies.onmicrosoft.com: enabled=False, user type=Member, direct groups=1.
+2026-08-20 20:20:26 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 20:20:27 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 20:20:28 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 20:20:28 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 20:20:29 [INFO] andrucaban_yahoo.com#EXT#@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Guest, direct groups=1.
+2026-08-20 20:20:29 [INFO] Account-hygiene audit found 2 finding(s).
+2026-08-20 20:20:29 [INFO] Starting service-account audit.
+2026-08-20 20:20:30 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com: 1 unexpected group(s), 0 unexpected role(s).
+2026-08-20 20:20:30 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com: 0 unexpected group(s), 1 unexpected role(s).
+2026-08-20 20:20:30 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com: 0 unexpected group(s), 0 unexpected role(s).
+2026-08-20 20:20:30 [INFO] Service-account audit found 2 finding(s).
+2026-08-20 20:20:30 [INFO] Exported C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-05-Identity-Security-Posture-Assessment\reports\PrivilegedAccessFindings.csv.
+2026-08-20 20:20:30 [INFO] Exported C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-05-Identity-Security-Posture-Assessment\reports\RBACFindings.csv.
+2026-08-20 20:20:30 [INFO] Exported C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-05-Identity-Security-Posture-Assessment\reports\AuthenticationFindings.csv.
+2026-08-20 20:20:30 [INFO] Exported C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-05-Identity-Security-Posture-Assessment\reports\AccountHygieneFindings.csv.
+2026-08-20 20:20:31 [INFO] Exported C:\Users\andru\OneDrive\IAM lab\Advanced-IAM-PowerShell-Automation-Lab\Lab-05-Identity-Security-Posture-Assessment\reports\ServiceAccountFindings.csv.
+2026-08-20 20:20:31 [INFO] Reporting complete. Overall posture: HIGH.
+2026-08-20 20:20:31 [INFO] Identity security posture assessment completed successfully.

@@ -1,0 +1,23 @@
+2026-08-20 16:37:35 [INFO] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 16:37:35 [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+2026-08-20 16:37:35 [INFO] Starting account-hygiene audit.
+2026-08-20 16:37:37 [INFO] racheladams@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 16:37:37 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=2.
+2026-08-20 16:37:38 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 16:37:38 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 16:37:39 [INFO] amandalee@CabanTechnologies.onmicrosoft.com: enabled=False, user type=Member, direct groups=1.
+2026-08-20 16:37:39 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 16:37:40 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=1.
+2026-08-20 16:37:40 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 16:37:41 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Member, direct groups=0.
+2026-08-20 16:37:41 [INFO] andrucaban_yahoo.com#EXT#@CabanTechnologies.onmicrosoft.com: enabled=True, user type=Guest, direct groups=1.
+2026-08-20 16:37:41 [INFO] Account-hygiene audit found 2 finding(s).
+2026-08-20 16:38:50 [INFO] Disconnected from Microsoft Graph.
+2026-08-20 16:41:10 [INFO] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 16:41:10 [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+2026-08-20 16:45:08 [INFO] Starting service-account audit.
+2026-08-20 16:45:18 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com: 1 unexpected group(s), 0 unexpected role(s).
+2026-08-20 16:45:19 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com: 0 unexpected group(s), 1 unexpected role(s).
+2026-08-20 16:45:19 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com: 0 unexpected group(s), 0 unexpected role(s).
+2026-08-20 16:45:20 [INFO] Service-account audit found 2 finding(s).
+2026-08-20 20:03:23 [INFO] Reporting complete. Overall posture: LOW.

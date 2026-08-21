@@ -1,0 +1,3 @@
+"UserPrincipalName","FindingType","MethodsDetected","Severity","Details"
+"racheladams@CabanTechnologies.onmicrosoft.com","No Strong Authentication Method","passwordAuthenticationMethod","Medium","No recognized strong authentication method is registered."
+"jasonreed@CabanTechnologies.onmicrosoft.com","No Strong Authentication Method","passwordAuthenticationMethod","Medium","No recognized strong authentication method is registered."

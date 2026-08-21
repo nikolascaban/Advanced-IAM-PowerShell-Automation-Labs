@@ -1,0 +1,11 @@
+UserPrincipalName,IdentityType,AuthenticationAudit
+racheladams@CabanTechnologies.onmicrosoft.com,User,Yes
+carlosrivera@CabanTechnologies.onmicrosoft.com,User,No
+ethanbrooks@CabanTechnologies.onmicrosoft.com,User,No
+oliviamorgan@CabanTechnologies.onmicrosoft.com,User,No
+amandalee@CabanTechnologies.onmicrosoft.com,User,No
+jasonreed@CabanTechnologies.onmicrosoft.com,User,Yes
+svc-reporting@CabanTechnologies.onmicrosoft.com,ServiceAccount,No
+svc-backup@CabanTechnologies.onmicrosoft.com,ServiceAccount,No
+svc-appsync@CabanTechnologies.onmicrosoft.com,ServiceAccount,No
+andrucaban_yahoo.com#EXT#@CabanTechnologies.onmicrosoft.com,Guest,No

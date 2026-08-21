@@ -1,0 +1,5 @@
+"UserPrincipalName","FindingType","GroupName","ExpectedAccess","ActualAccess","Severity","Details"
+"carlosrivera@CabanTechnologies.onmicrosoft.com","Unexpected Group Membership","Operations-Users","Not assigned","Assigned","Medium","Unexpected membership in Operations-Users was detected."
+"ethanbrooks@CabanTechnologies.onmicrosoft.com","Missing Expected Group","it-admins","Assigned","Not assigned","Medium","Expected membership in it-admins is missing."
+"oliviamorgan@CabanTechnologies.onmicrosoft.com","Missing Expected Group","operations-users","Assigned","Not assigned","Medium","Expected membership in operations-users is missing."
+"oliviamorgan@CabanTechnologies.onmicrosoft.com","Unexpected Group Membership","Finance-Users","Not assigned","Assigned","Medium","Unexpected membership in Finance-Users was detected."

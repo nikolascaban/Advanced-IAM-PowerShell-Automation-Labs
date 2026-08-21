@@ -1,0 +1,14 @@
+2026-08-20 15:38:12 [INFO] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 15:38:12 [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+2026-08-20 15:38:12 [INFO] Starting privileged-access audit.
+2026-08-20 15:38:25 [INFO] racheladams@CabanTechnologies.onmicrosoft.com has 2 active role assignment(s).
+2026-08-20 15:38:25 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:25 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com has 1 active role assignment(s).
+2026-08-20 15:38:25 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:26 [INFO] amandalee@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:26 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:26 [INFO] svc-reporting@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:26 [INFO] svc-backup@CabanTechnologies.onmicrosoft.com has 1 active role assignment(s).
+2026-08-20 15:38:27 [INFO] svc-appsync@CabanTechnologies.onmicrosoft.com has 0 active role assignment(s).
+2026-08-20 15:38:27 [INFO] Privileged-access audit found 1 finding(s).
+2026-08-20 15:39:14 [INFO] Disconnected from Microsoft Graph.

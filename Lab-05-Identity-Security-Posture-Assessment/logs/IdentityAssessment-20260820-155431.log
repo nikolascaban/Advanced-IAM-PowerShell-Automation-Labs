@@ -1,0 +1,7 @@
+2026-08-20 15:54:36 [INFO] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 15:54:36 [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+2026-08-20 15:54:36 [INFO] Starting RBAC audit.
+2026-08-20 15:54:37 [INFO] carlosrivera@CabanTechnologies.onmicrosoft.com: 0 missing and 1 unexpected governed group(s).
+2026-08-20 15:54:38 [INFO] ethanbrooks@CabanTechnologies.onmicrosoft.com: 1 missing and 0 unexpected governed group(s).
+2026-08-20 15:54:38 [INFO] oliviamorgan@CabanTechnologies.onmicrosoft.com: 1 missing and 1 unexpected governed group(s).
+2026-08-20 15:54:38 [INFO] RBAC audit found 4 finding(s).

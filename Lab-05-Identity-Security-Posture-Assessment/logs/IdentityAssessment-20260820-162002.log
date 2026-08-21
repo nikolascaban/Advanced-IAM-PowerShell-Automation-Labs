@@ -1,0 +1,6 @@
+2026-08-20 16:20:08 [INFO] Connected to Microsoft Graph as NikolasCaban@CabanTechnologies.onmicrosoft.com.
+2026-08-20 16:20:08 [INFO] Tenant ID: c86579da-1581-4ece-ad90-9693979d884e
+2026-08-20 16:20:08 [INFO] Starting authentication audit.
+2026-08-20 16:20:10 [INFO] racheladams@CabanTechnologies.onmicrosoft.com has 0 recognized strong authentication method(s).
+2026-08-20 16:20:11 [INFO] jasonreed@CabanTechnologies.onmicrosoft.com has 0 recognized strong authentication method(s).
+2026-08-20 16:20:11 [INFO] Authentication audit found 2 finding(s).

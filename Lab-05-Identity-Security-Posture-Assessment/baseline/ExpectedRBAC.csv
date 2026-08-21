@@ -1,0 +1,4 @@
+UserPrincipalName,ExpectedGroups
+carlosrivera@CabanTechnologies.onmicrosoft.com,finance-users
+ethanbrooks@CabanTechnologies.onmicrosoft.com,it-admins
+oliviamorgan@CabanTechnologies.onmicrosoft.com,operations-users

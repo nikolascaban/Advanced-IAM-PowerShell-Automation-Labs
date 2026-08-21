@@ -1,0 +1,3 @@
+"UserPrincipalName","DisplayName","FindingType","Access","Severity","Details"
+"amandalee@CabanTechnologies.onmicrosoft.com","Amanda Lee","Disabled Account Retains Access","HR-Users","High","Disabled account still has direct group memberships."
+"andrucaban_yahoo.com#EXT#@CabanTechnologies.onmicrosoft.com","Guest Auditor","Guest Has Sensitive Access","Finance-Users","High","Guest account has direct membership in a sensitive group."
