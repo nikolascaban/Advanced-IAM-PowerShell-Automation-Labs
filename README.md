@@ -147,34 +147,6 @@ RoleManagement.Read.Directory
 UserAuthenticationMethod.Read.All
 ```
 
-Administrative consent and an appropriate Microsoft Entra role may be required for some operations.
-
-## Running the Labs
-
-Clone the repository:
-
-```powershell
-git clone https://github.com/USERNAME/Advanced-IAM-PowerShell-Automation-Lab.git
-```
-
-Enter the repository:
-
-```powershell
-Set-Location ".\Advanced-IAM-PowerShell-Automation-Lab"
-```
-
-Open the desired lab folder and follow its individual `README.md`.
-
-Example:
-
-```powershell
-Set-Location ".\Lab-05-Identity-Security-Posture-Assessment"
-
-.\identity-security-posture-assessment.ps1
-```
-
-Replace `USERNAME` with the GitHub account that owns the repository.
-
 ## Reports and Evidence
 
 Depending on the lab, generated evidence includes:
