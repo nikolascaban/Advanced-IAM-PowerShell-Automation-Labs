@@ -1,143 +1,236 @@
-# Advanced IAM PowerShell Automation Labs
+# Advanced IAM PowerShell Automation Lab
 
 ## Overview
 
-The **Advanced IAM PowerShell Automation Lab** is a hands-on portfolio project that demonstrates how PowerShell can be used to automate common Identity and Access Management (IAM) operations in an enterprise environment.
+This repository contains five hands-on Identity and Access Management automation labs built with PowerShell and Microsoft Graph.
 
-The project is structured as a series of progressively more advanced labs that simulate real-world IAM workflows, including identity lifecycle management, privileged access reviews, role-based access control (RBAC), service account auditing, and identity troubleshooting.
+The project progresses from identity lifecycle automation through user and group administration, privileged-access review, RBAC drift detection, and a final identity security posture assessment.
 
-The objective of this project is to strengthen PowerShell automation skills while reinforcing core IAM concepts used in Microsoft Entra ID, Active Directory, and enterprise identity governance.
+Each lab demonstrates a practical IAM workflow using modular PowerShell scripts, Microsoft Entra ID data, structured baselines, logging, validation, and CSV reporting.
 
----
+## Project Objectives
 
-## Technologies Used
+This project demonstrates how PowerShell automation can support:
 
-* PowerShell 7+
-* Visual Studio Code
-* CSV Data Import
-* Windows PowerShell Extension
-* Git
-* GitHub
-* Markdown Documentation
+- Joiner, mover, and leaver identity processes
+- Microsoft Entra user and group administration
+- Privileged-role visibility and review
+- Role-based access control governance
+- Expected-versus-actual access comparisons
+- Authentication-method assessment
+- Disabled-account and guest-access analysis
+- Service-account governance
+- Identity security reporting
+- Repeatable and auditable IAM operations
 
----
+## Labs
+
+| Lab | Focus | Description |
+|---|---|---|
+| [Lab 01 – JML Lifecycle Automation](Lab-01-JML-Lifecycle-Automation/) | Identity lifecycle | Automates joiner, mover, and leaver processes for Microsoft Entra identities. |
+| [Lab 02 – Entra User and Group Automation](Lab-02-Entra-User-Group-Automation/) | Identity administration | Automates Microsoft Entra user creation, group management, and membership operations. |
+| [Lab 03 – Privileged Access Review](Lab-03-Privileged-Access-Review/) | Privileged access | Reviews Microsoft Entra role assignments and identifies identities with elevated access. |
+| [Lab 04 – RBAC Drift Detection](Lab-04-RBAC-Drift-Detection/) | Access governance | Compares approved RBAC baselines with actual group memberships to detect missing and unexpected access. |
+| [Lab 05 – Identity Security Posture Assessment](Lab-05-Identity-Security-Posture-Assessment/) | Identity security | Combines privileged access, RBAC, authentication, account hygiene, and service-account checks into a single assessment. |
 
 ## Repository Structure
 
 ```text
-Advanced-IAM-PowerShell-Automation-Lab
+Advanced-IAM-PowerShell-Automation-Lab/
 │
-├── Lab-01-JML-Lifecycle-Automation
-├── Lab-02-Privileged-Access-Review
-├── Lab-03-RBAC-Drift-Detection
-├── Lab-04-Service-Account-Risk-Audit
-└── Lab-05-IAM-Break-Fix-Troubleshooting
+├── Lab-01-JML-Lifecycle-Automation/
+├── Lab-02-Entra-User-Group-Automation/
+├── Lab-03-Privileged-Access-Review/
+├── Lab-04-RBAC-Drift-Detection/
+├── Lab-05-Identity-Security-Posture-Assessment/
+│
+└── README.md
 ```
 
----
+Each lab contains its own documentation, PowerShell scripts, configuration or baseline data, generated reports, logs, and supporting screenshots.
 
-# Labs
+## Lab Progression
 
-##  Lab 01 – Joiner / Mover / Leaver (JML) Lifecycle Automation
+### Lab 01 – JML Lifecycle Automation
 
-**Status:** Complete
+Lab 01 introduces identity lifecycle management through joiner, mover, and leaver workflows.
 
-### Skills Demonstrated
+The automation demonstrates how standardized identity processes can support:
 
-* PowerShell scripting
-* CSV data processing
-* Identity lifecycle management
-* Role-based access mapping
-* Logging
-* Audit report generation
-* PowerShell functions
-* Error handling
+- User onboarding
+- Identity updates
+- Access changes
+- Account offboarding
+- Consistent lifecycle records
+- Repeatable administrative operations
 
-### Simulated IAM Operations
+### Lab 02 – Entra User and Group Automation
 
-* Create new user accounts
-* Assign role-based access
-* Validate access after role changes
-* Disable terminated users
-* Remove access
-* Generate audit reports
-* Generate execution logs
+Lab 02 focuses on automating common Microsoft Entra ID administration tasks.
 
----
+The lab demonstrates:
 
-##  Lab 02 – Privileged Access Review
+- User account management
+- Group creation and administration
+- Group membership automation
+- Input validation
+- Structured processing
+- Administrative reporting
 
-**Status:** In Progress
+### Lab 03 – Privileged Access Review
 
-Planned topics:
+Lab 03 introduces privileged-access governance.
 
-* Administrative group review
-* Privileged account auditing
-* Least privilege validation
-* Risk reporting
+The lab reviews Microsoft Entra role assignments and helps identify:
 
----
+- Privileged identities
+- Users holding multiple elevated roles
+- Role-assignment concentration
+- Access requiring administrative review
 
-##  Lab 03 – RBAC Drift Detection
+### Lab 04 – RBAC Drift Detection
 
-**Status:** Planned
+Lab 04 compares approved access with actual Microsoft Entra group memberships.
 
-Planned topics:
+The lab detects:
 
-* Compare expected vs actual access
-* Detect over-permissioned users
-* Detect missing access
-* RBAC compliance reporting
+- Missing expected access
+- Unexpected group membership
+- Incorrect role-based access
+- Differences between approved and current access
 
----
+The results provide a repeatable method for reviewing RBAC compliance.
 
-##  Lab 04 – Service Account Risk Audit
+### Lab 05 – Identity Security Posture Assessment
 
-**Status:** Planned
+Lab 05 is the capstone assessment and combines the concepts developed throughout the project.
 
-Planned topics:
+The assessment evaluates:
 
-* Service account inventory
-* Password age auditing
-* Stale account detection
-* Risk scoring
+- Multiple privileged-role assignments
+- RBAC drift
+- Missing strong authentication methods
+- Disabled accounts retaining access
+- Guest accounts with sensitive access
+- Service accounts with unapproved groups
+- Service accounts with privileged roles
 
----
+The lab produces color-coded console results, detailed CSV reports, a consolidated findings report, and an overall identity security posture rating.
 
-##  Lab 05 – IAM Break/Fix Troubleshooting
+## Technologies
 
-**Status:** Planned
+The project uses:
 
-Planned topics:
+- PowerShell
+- Microsoft Graph PowerShell
+- Microsoft Graph API
+- Microsoft Entra ID
+- CSV configuration and baseline files
+- Modular PowerShell functions
+- Structured logging
+- Automated report generation
+- Git and GitHub
 
-* Account lockouts
-* Disabled accounts
-* Missing group membership
-* Authentication troubleshooting
-* IAM diagnostics toolkit
+## Microsoft Graph
 
----
+The labs use delegated Microsoft Graph permissions according to the operations performed by each script.
 
-# Learning Objectives
+Permissions used throughout the project include:
 
-This project was created to gain practical experience with PowerShell automation in IAM scenarios and to demonstrate the ability to design structured, reusable scripts that support enterprise identity operations.
+```text
+User.Read.All
+User.ReadWrite.All
+Group.Read.All
+Group.ReadWrite.All
+Directory.Read.All
+RoleManagement.Read.Directory
+UserAuthenticationMethod.Read.All
+```
 
-Each lab builds on previous concepts while introducing more advanced scripting techniques and IAM workflows.
+Administrative consent and an appropriate Microsoft Entra role may be required for some operations.
 
----
+## Running the Labs
 
-# Future Enhancements
+Clone the repository:
 
-* Microsoft Graph PowerShell integration
-* Microsoft Entra ID automation
-* JSON configuration files
-* Modular PowerShell functions
-* Interactive menu system
-* HTML reporting
-* Advanced logging
-* Unit testing with Pester
+```powershell
+git clone https://github.com/USERNAME/Advanced-IAM-PowerShell-Automation-Lab.git
+```
 
----
+Enter the repository:
 
-Nikolas Caban GitHub Portfolio:
-https://github.com/nikolascaban
+```powershell
+Set-Location ".\Advanced-IAM-PowerShell-Automation-Lab"
+```
+
+Open the desired lab folder and follow its individual `README.md`.
+
+Example:
+
+```powershell
+Set-Location ".\Lab-05-Identity-Security-Posture-Assessment"
+
+.\identity-security-posture-assessment.ps1
+```
+
+Replace `USERNAME` with the GitHub account that owns the repository.
+
+## Reports and Evidence
+
+Depending on the lab, generated evidence includes:
+
+- Execution logs
+- User-processing results
+- Group-membership reports
+- Privileged-access findings
+- RBAC drift findings
+- Authentication findings
+- Account-hygiene findings
+- Service-account findings
+- Consolidated identity-security findings
+- Posture summaries
+- Screenshots of completed lab runs
+
+Generated results are stored inside each lab’s designated `logs`, `reports`, or `screenshots` folders.
+
+## Security Practices
+
+The labs follow these security practices:
+
+- Use only the Microsoft Graph permissions required for the task.
+- Avoid storing passwords, tokens, or client secrets in scripts.
+- Keep tenant-specific test data controlled.
+- Validate CSV input before processing.
+- Record automation activity in log files.
+- Use assessment scopes to limit audit populations.
+- Separate baseline data from processing logic.
+- Use read-only permissions for assessment operations.
+- Disconnect Graph sessions created by completed scripts.
+- Review generated files before publishing tenant information.
+
+## Skills Demonstrated
+
+This project demonstrates experience with:
+
+- IAM lifecycle automation
+- Microsoft Entra ID administration
+- PowerShell scripting
+- Microsoft Graph integration
+- Modular automation design
+- User and group management
+- Privileged-access analysis
+- RBAC governance
+- Authentication security
+- Guest-account review
+- Disabled-account analysis
+- Service-account governance
+- Error handling and validation
+- Structured logging
+- CSV data processing
+- Security reporting
+- Risk classification
+- Technical documentation
+
+## Author
+
+Nikolas Caban
